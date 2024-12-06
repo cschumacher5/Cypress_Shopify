@@ -1,0 +1,18 @@
+{
+    "firstName": "Baby Billy",
+    "lastName": "Freeman",
+    "address1": "7733 Marble Crest Dr", 
+    "city": "Austin", 
+    "state": "Texas", 
+    "zipCode": "78747", 
+    "emailAddress": "csschumacher+unclebabybilly@gmail.com", 
+    "product1": "Basic Tee",
+    "product2": "The Room",
+    "product3": "Nic Cage Pillow",
+    "product4": "Buseyism FUN",
+    "orderConfirm": "Your order is confirmed", 
+    "collection": "Clothing",
+    "collectionPage": "All Collections", 
+    "searchProduct": "Search",
+    "productQuantity": 3
+  }
