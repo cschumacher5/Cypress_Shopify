@@ -14,13 +14,13 @@
 
 Cypress.Commands.add('customerShipping', (customerName) => { 
     
-  cy.get('#email').type('csschumacher+unclebabybilly@gmail.com')
-  cy.get('#TextField0').type('Baby Billy')
-  cy.get('#TextField1').type('Freeman')
-  cy.get('#shipping-address1').type('7733 Marble Crest Dr')
-  cy.get('#TextField4').click({force: true}).type('Austin')
-  cy.get('#Select1').type('Texas')
-  cy.get('#TextField5').type('78747')
+  cy.get('[name="email"]').type('csschumacher+unclebabybilly@gmail.com')
+  cy.get('[placeholder="First name (optional)"]').eq(0).type('Baby Billy')
+  cy.get('[placeholder="Last name"]').eq(0).type('Freeman')
+  cy.get('[placeholder="Address"]').eq(0).type('7733 Marble Crest Dr')
+  cy.get('[placeholder="City"]').eq(0).click({force: true}).type('Austin')
+  cy.get('[name="zone"]').eq(0).type('Texas')
+  cy.get('[name="postalCode"]').eq(0).type('78747')
 
   //shopCartPage.getFirstName().type(this.data.firstName)
   //shopCartPage.getLastName().type(this.data.lastName)

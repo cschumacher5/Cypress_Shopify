@@ -154,7 +154,7 @@ describe("Create order", function () {
     shopProductPage.getCheckout().click();
 
     //Apply discount code
-    cy.get("#ReductionsInput0").type("twentypercent");
+    cy.get('[placeholder="Discount code or gift card"]').type("twentypercent");
     cy.get('[aria-label="Apply Discount Code"]').click();
 
     //verify discount code applied

@@ -6,10 +6,10 @@ class ShopifyCart
         return cy.get('#email')   
     }
 
-    getFirstName()
-    {
-        return cy.get('#TextField0')   
-    }
+    // getFirstName()
+    // {
+    //     return cy.get('[placeholder="First name (optional)"]')
+    // }
 
     getLastName()
     {
